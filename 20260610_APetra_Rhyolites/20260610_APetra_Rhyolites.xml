@@ -1,0 +1,777 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mdacst3D xmlns="https://altag3d.huma-num.fr/data" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" id="_6cc5ce04-bfa6-4317-9ff6-2c131e6cfadd" version="2" xsi:schemaLocation="https://altag3d.huma-num.fr/data https://altag3d.huma-num.fr/data/mdacst3d.xsd">
+ <depositGeneral id="_c493cdf9-8e23-41ea-b578-606c912d4ce1">
+  <d_title>20260610_APetra_Rhyolites</d_title>
+  <d_description>A lithic series comprising rhyolite artefacts unearthed at the A Petra site (Île-Rousse, Southern Corsica) during the 2022 archaeological excavation l</d_description>
+  <depositProject id="_53564511-6c76-457e-a2d5-53497941e050">
+   <dp_nameProject>AUTOMATA</dp_nameProject>
+   <dp_contextProject>Digitisation of archaeological material</dp_contextProject>
+   <dp_sciTechObjectives>Automatic creation of integrated digital twins</dp_sciTechObjectives>
+   <dp_fundings>AUTOMATA is a project funded by the European Commission under Grant Agreement n.101158046 – AUTOMATA.</dp_fundings>
+   <dp_date id="_fea8fe6e-73c3-4352-b912-0f6fa7a54ebd">
+    <date_minDate />
+    <date_maxDate />
+    <date_litteralDatation>2024</date_litteralDatation>
+   </dp_date>
+   <dp_location id="unique id">
+     <loc_name>Where the system is</loc_name>
+     <loc_geonames> </loc_geonames>
+     <log_LongLat> </log_LongLat>
+     <loc_French> </loc_French>
+     <loc_English> </loc_English>
+    </dp_location>
+  </depositProject>
+  <depositManagement id="_0bbab8da-83d8-4e31-9b24-aab2ff05da13">
+   <dm_rights>CC BY SA</dm_rights>
+   <dm_version>4.0</dm_version>
+   <dm_depositorService>
+    <actor_type code="organization">Organization</actor_type>
+    <actor_litteral>Archéosciences Bordeaux UMR 6034</actor_litteral>
+    <actor_uri />
+   </dm_depositorService>
+   <dm_compatibility>10</dm_compatibility>
+   <dm_responsibleEntity id="_20d60d0f-c574-4ebb-b4fa-82d75f42efda">
+    <actor_type code="person">Person</actor_type>
+    <actor_litteral>Sarah Tournon</actor_litteral>
+    <actor_uri>https://orcid.org/0000-0002-1673-1073</actor_uri>
+   </dm_responsibleEntity>
+  </depositManagement>
+  <d_scientificDirector id="_28118716-ae47-48d4-addf-6e6244243545">
+   <actor_type code="person">Person</actor_type>
+   <actor_litteral>Gabrielle Gattiglia</actor_litteral>
+   <actor_uri>https://orcid.org/0000-0002-4245-8939</actor_uri>
+  </d_scientificDirector>
+  <d_creator id="_b512a4f1-be7a-4d05-9c94-3e81daa664b6">
+   <actor_type code="person">Person</actor_type>
+   <actor_litteral>Arthur Leck</actor_litteral>
+   <actor_uri>https://orcid.org/0009-0004-8819-9970</actor_uri>
+  </d_creator>
+  <depositStructure id="_2d23bcf1-d1d1-4e31-a664-d43c5426803a">
+   <ds_nbOfFiles />
+   <ds_size />
+   <ds_content />
+  </depositStructure>
+ </depositGeneral>
+ <digitalObject id="_14c891e8-352a-490a-b6f2-511fea1ca861">
+  <object_name>20260610_APetra_Rhyolites_BDX28019</object_name>
+  <object_nature code="acquisition">Acquisition</object_nature>
+  <object_licence>CC BY SA</object_licence>
+  <object_creator id="_95b861fc-dc94-47c6-9fa2-542ff9f7606a"> FAIRE ECRIRE AUTOMATIQUEMENT LE NOM DES CREATORS DU DEPOT </object_creator>
+   <actor_type code="person">Person</actor_type>
+   <actor_litteral>Arthur Leck</actor_litteral>
+   <actor_uri>https://orcid.org/0009-0004-8819-9970</actor_uri>
+  </object_creator>
+  <object_principalElement code="yes">yes</object_principalElement>
+  <object_description />
+  <object_thumbnail> ECRIRE LE CHEMIN VERS L'OBJET LORS DE LA CREATION DU XML PUIS LE CHANGER QUAND ON PUSH VERS LA BDD </object_thumbnail>
+  <object_collection>AUTOMATA</object_collection>
+  <object_contruitID />
+  <physicalObject id="_c2ebbb50-59c1-4071-bd9e-0ca45d3705fe">
+   <po_name>BDX28019</po_name>
+   <po_type code="artefact">Artefact</po_type>
+   <po_materials>Rhyolite</po_materials>
+   <po_description>elongated flake or bladelet</po_description>
+   <po_subject>Rhyolite</po_subject>
+   <po_subject>flake</po_subject>
+   <po_subject>neolithic</po_subject>
+   <po_creation id="_f81cde7f-067f-4bd5-9933-aa671f0fa47c">
+    <po_creation_actor>
+     <actor_type code="person">Person</actor_type>
+     <actor_litteral />
+     <actor_uri />
+    </po_creation_actor>
+    <po_creation_date id="_df9e5d37-065b-4772-837c-0d8db50917ad">
+     <date_minDate />
+     <date_periodo />
+     <date_periodo />
+     <date_litteralDatation />
+    </po_creation_date>
+    <po_creation_location id="_51b280d2-768b-466a-a89d-cf15767e1504">
+     <loc_name />
+     <loc_geonames />
+     <log_LongLat />
+     <loc_French />
+     <loc_English />
+    </po_creation_location>
+   </po_creation>
+   <po_discovery id="_427e9c89-2bcb-48ef-9717-e96a9cb9899e">
+    <po_discovery_actor>
+     <actor_type code="person">Person</actor_type>
+     <actor_litteral>Florian Soula</actor_litteral>
+     <actor_uri>https://orcid.org/0009-0008-4569-011X</actor_uri>
+    </po_discovery_actor>
+    <po_discovery_date id="_63bf638d-5c40-437e-a1a1-e52a15457d1b">
+     <date_minDate />
+     <date_periodo />
+     <date_periodo />
+     <date_litteralDatation>2022</date_litteralDatation>
+    </po_discovery_date>
+    <po_discovery_location id="_0f356bd6-0f8d-4a7e-8c8a-26c0886dfe56">
+     <loc_name>Île Rousse</loc_name>
+     <loc_geonames>2998330</loc_geonames>
+     <log_LongLat>8.93764, 42.63371</log_LongLat>
+     <loc_French>L'Île-Rousse</loc_French>
+     <loc_English>L'Île-Rousse</loc_English>
+    </po_discovery_location>
+   </po_discovery>
+   <po_conservation id="_cc4e7713-703a-476c-8c21-fe2e9b8776a1">
+    <po_conservation_actor>
+     <actor_type code="person">Person</actor_type>
+     <actor_litteral>Arthur Leck</actor_litteral>
+     <actor_uri>https://orcid.org/0009-0004-8819-9970</actor_uri>
+    </po_conservation_actor>
+    <po_conservation_date id="_ad77678d-0d66-49f3-8278-84b15a0cb92e">
+     <date_minDate />
+     <date_periodo />
+     <date_periodo />
+     <date_litteralDatation>2026</date_litteralDatation>
+    </po_conservation_date>
+    <po_conservation_location id="_f8c15fa4-19fb-4b0c-9426-66bd0e459cce">
+     <loc_name>Pessac</loc_name>
+     <loc_geonames>2987805</loc_geonames>
+     <log_LongLat>-0.6324, 44.80565</log_LongLat>
+     <loc_French>Pessac</loc_French>
+     <loc_English>Pessac</loc_English>
+    </po_conservation_location>
+   </po_conservation>
+   <po_inventory id="_b85d743a-fcdd-4e80-b241-a4d6d155e9d0">
+    <inventory_name />
+    <inventory_id>BDX28019</inventory_id>
+    <inventory_uri />
+   </po_inventory>
+  </physicalObject>
+  <sourceGroup id="_13276458-9d70-4bd0-94e9-9e0013b0e90b">
+	  <sourcePhotogrammetry>
+		<ph_technology id="_dc36749a-daba-4a96-bdf1-ef001e3d8d2d">
+			<ph_software id="_0506b717-eb56-4c81-91a9-39bbb6e83504">
+				<sw_name> SVS API? </sw_name>
+				<sw_version></sw_version>
+				<sw_URI/>
+			</ph_software>
+			<ph_hardware id="_5fc2fad4-46a5-4497-8058-3d2639cfda90">
+				<hw_sensorBrand>SVS Vistek Exo</hw_sensorBrand>
+				<hw_sensorModel>exo304CU3</hw_sensorModel>
+				<hw_sensorcalibration> Thumbnail to the calibration file? </hw_sensorcalibration>
+				<hw_spec> https://www.alliedvision.com/pdf/datasheet/1858?locale=en_US </hw_spec>
+			</ph_hardware>
+			<ph_process> Something about the calibration??? </ph_process>
+			<ph_initial_parameters> paramètres validés par l'opérateur - A FAIRE ECRIRE AUTOMATIQUEMENT PAR L'API </ph_initial_parameters>
+		</ph_technology>
+		<ph_folder_thumbnail> Do we need it or as the arborescence is always the same, only the object name is mandatory??? </ph_folder_thumbnail>
+		<photo_File>
+		  <file_path></file_path>
+		  <file_date></file_date>
+		  <file_format></file_format>
+		  <file_description></file_description>
+		  <file_ORI type="MD5">bc5fbc057e82d9247d372d0496880ab5</file_ORI>
+		  <file_encoding></file_encoding>
+		</photo_File>
+		<ph_paradata>
+		<file_path>.../photogrametry_paradata.csv</file_path>
+		  <file_creator></file_creator>
+		  <file_date></file_date>
+		  <file_format>csv</file_format>
+		  <file_description>all additional metadatas attached to the photogrametry acquisition</file_description>
+		  <file_ORI type="MD5">bc5fbc057e82d9247d372d0496880ab5</file_ORI>
+		  <file_encoding></file_encoding>
+		</ph_paradata>
+	   </sourcePhotogrammetry>
+	  <sourceHSI>
+		<hsi_technology id="_dc36749a-daba-4a96-bdf1-ef001e3d8d2d">
+			<hsi_software id="_0506b717-eb56-4c81-91a9-39bbb6e83504">
+				<sw_name>Specim IQ Studio</sw_name>
+				<sw_version>2019.05.29.2</sw_version>
+				<sw_URI/>
+			</hsi_software>
+			<hsi_hardware id="_5fc2fad4-46a5-4497-8058-3d2639cfda90">
+				<hw_sensorBrand>Specim</hw_sensorBrand>
+				<hw_sensorModel>IQ</hw_sensorModel>
+			</hsi_hardware>
+			<hsi_process> Something about white, dark and calibration
+			</hsi_process>
+			<hsi_initial_parameters> paramètres validés par l'opérateur - A FAIRE ECRIRE AUTOMATIQUEMENT PAR L'API </hsi_initial_parameters>
+		</hsi_technology>
+		<hsi_File>
+		  <file_path>.../reflectance.hdr</file_path>
+		  <file_date></file_date>
+		  <file_format>hdr</file_format>
+		  <file_description>Hyperspectrale image of "po_name"</file_description>
+		  <file_ORI type="MD5">bc5fbc057e82d9247d372d0496880ab5</file_ORI>
+		  <file_encoding></file_encoding>
+		</hsi_File>
+		<hsi_paradata>
+		<file_path>.../hsi_paradata.csv</file_path>
+		  <file_creator></file_creator>
+		  <file_date></file_date>
+		  <file_format>csv</file_format>
+		  <file_description>all additional metadatas attached to the hyperspectral imaging acquisition</file_description>
+		  <file_ORI type="MD5">bc5fbc057e82d9247d372d0496880ab5</file_ORI>
+		  <file_encoding></file_encoding>
+		</hsi_paradata>
+	   </sourceHSI>
+	  <sourceRaman>
+		<Raman_technology id="_dc36749a-daba-4a96-bdf1-ef001e3d8d2d">
+			<Raman_software id="_0506b717-eb56-4c81-91a9-39bbb6e83504">
+				<sw_name></sw_name>
+				<sw_version></sw_version>
+				<sw_URI/>
+			</Raman_software>
+			<Raman_hardware id="_5fc2fad4-46a5-4497-8058-3d2639cfda90">
+				<hw_sensorBrand></hw_sensorBrand>
+				<hw_sensorModel></hw_sensorModel>
+			</Raman_hardware>
+			<Raman_process>
+			</Raman_process>
+			<Raman_initial_parameters> paramètres validés par l'opérateur - A FAIRE ECRIRE AUTOMATIQUEMENT PAR L'API </Raman_initial_parameters>
+		</Raman_technology>
+		<Raman_File>
+		  <file_path></file_path>
+		  <file_creator></file_creator>
+		  <file_date></file_date>
+		  <file_format></file_format>
+		  <file_description></file_description>
+		  <file_ORI type="MD5"></file_ORI>
+		  <file_encoding></file_encoding>
+		</Raman_File>
+		<Raman_paradata>
+		<file_path></file_path>
+		  <file_creator></file_creator>
+		  <file_date></file_date>
+		  <file_format></file_format>
+		  <file_description></file_description>
+		  <file_ORI type="MD5"></file_ORI>
+		  <file_encoding></file_encoding>
+		</Raman_paradata>
+	   </sourceRaman>
+	  <sourceXRF>
+		<xrf_technology id="_dc36749a-daba-4a96-bdf1-ef001e3d8d2d">
+			<xrf_software id="_0506b717-eb56-4c81-91a9-39bbb6e83504">
+				<sw_name>Vanta Desktop App</sw_name>
+				<sw_version></sw_version>
+				<sw_URI/>
+			</xrf_software>
+			<xrf_hardware id="_5fc2fad4-46a5-4497-8058-3d2639cfda90">
+				<hw_sensorBrand>Olympus</hw_sensorBrand>
+				<hw_sensorModel>Vanta Serie C</hw_sensorModel>
+			</xrf_hardware>
+			<xrf_process>
+			</xrf_process>
+			<xrf_initial_parameters> paramètres validés par l'opérateur - A FAIRE ECRIRE AUTOMATIQUEMENT PAR L'API </xrf_initial_parameters>
+		</xrf_technology>
+		<xrf_File>
+		  <file_path></file_path>
+		  <file_creator></file_creator>
+		  <file_date></file_date>
+		  <file_format></file_format>
+		  <file_description></file_description>
+		  <file_ORI type="MD5">bc5fbc057e82d9247d372d0496880ab5</file_ORI>
+		  <file_encoding></file_encoding>
+		</xrf_File>
+		<xrf_File>
+		  <file_path></file_path>
+		  <file_creator></file_creator>
+		  <file_date></file_date>
+		  <file_format></file_format>
+		  <file_description></file_description>
+		  <file_ORI type="MD5"></file_ORI>
+		  <file_encoding></file_encoding>
+		</xrf_File>
+		<xrf_paradata>
+		<file_path></file_path>
+		  <file_creator></file_creator>
+		  <file_date></file_date>
+		  <file_format></file_format>
+		  <file_description></file_description>
+		  <file_ORI type="MD5"></file_ORI>
+		  <file_encoding></file_encoding>
+		</xrf_paradata>
+   </sourceXRF>
+ 
+   <sourceRoboticArm />
+   
+   <otherAnalysesTBD />
+  </sourceGroup>
+  <computedInterpretedData id="_d2356a21-d297-4dcf-baa6-70af58961db7">
+    <photogrammetry_CIdata>
+		<phCI_File>
+		  <file_path></file_path>
+		  <file_date></file_date>
+		  <file_format>tiff</file_format>
+		  <file_description>derawed file</file_description>
+		  <file_ORI type="MD5">bc5fbc057e82d9247d372d0496880ab5</file_ORI>
+		  <file_encoding></file_encoding>
+		</phCI_File>
+		<mesh id="_4aa1a509-e5c5-4d75-9e44-aa130b396b05">
+		 <me_name></me_name>
+		 <me_numberOfPolygons></me_numberOfPolygons>
+		 <geometryFile id="_e74e9028-6728-4a75-bc6b-35ea4b0479bb_0">
+		  <geom_numberOfPoints></geom_numberOfPoints>
+		  <geom_orientationAxis code="not_oriented"></geom_orientationAxis>
+		  <geom_verticalAxis>X</geom_verticalAxis>
+		  <geom_unit>mm</geom_unit>
+		  <geom_xDimension/>
+		  <geom_yDimension/>
+		  <geom_zDimension/>
+		  <file_path>XXXXX.ply</file_path>
+		  <file_format>PLY</file_format>
+		  <file_ORI type="MD5">7d9637cb483b81750f42060391636202</file_ORI>
+		  <file_encoding>ASCII</file_encoding>
+		 </geometryFile>
+		 <me_technology id="_dc36749a-daba-4a96-bdf1-ef001e3d8d2d">
+		  <software id="_0506b717-eb56-4c81-91a9-39bbb6e83504">
+		   <sw_name>Automata pipeline</sw_name>
+		   <sw_version></sw_version>
+		   <sw_URI/>
+		  </software>
+		  <process></process>
+		 </me_technology>
+		</mesh>
+	</photogrammetry_CIdata>
+	<xrf_CIdata>
+		<XRFspectra>
+		<XRFspectra_name></XRFspectra_name>
+		  <file_path>XXXXX.jpg</file_path>
+		  <file_creator></file_creator>
+		  <file_date></file_date>
+		  <file_format></file_format>
+		  <file_ORI type="MD5">7d9637cb483b81750f42060391636202</file_ORI>
+		  <file_encoding> </file_encoding>
+		 <XRFspectra_technology id="_dc36749a-daba-4a96-bdf1-ef001e3d8d2d">
+		  <software id="_0506b717-eb56-4c81-91a9-39bbb6e83504">
+		   <sw_name>Orange Data Mining</sw_name>
+		   <sw_version> </sw_version>
+		   <sw_URI/>
+		  </software>
+		  <process> </process>
+		 </XRFspectra_technology>
+		</XRFspectra>
+		<XRFComposition>
+		<XRFComposition_name></XRFComposition_name>
+		  <file_path>XXXXX.csv</file_path>
+		  <file_creator>Arthur Leck</file_creator>
+		  <file_date>2025</file_date>
+		  <file_format>csv</file_format>
+		  <file_ORI type="MD5">7d9637cb483b81750f42060391636202</file_ORI>
+		  <file_encoding> </file_encoding>
+		 <XRFComposition_technology id="_dc36749a-daba-4a96-bdf1-ef001e3d8d2d">
+		  <software id="_0506b717-eb56-4c81-91a9-39bbb6e83504">
+		   <sw_name>Orange Data Mining</sw_name>
+		   <sw_version> </sw_version>
+		   <sw_URI/>
+		  </software>
+		  <process> </process>
+		 </XRFComposition_technology>
+		</XRFComposition>
+	</xrf_CIdata>
+	<Raman_CIdata>
+		<RamanSpectra>
+		 <RamanSpectra_name></RamanSpectra_name>
+		  <file_path>XXXXX.jpg</file_path>
+		  <file_creator></file_creator>
+		  <file_date></file_date>
+		  <file_format></file_format>
+		  <file_ORI type="MD5">7d9637cb483b81750f42060391636202</file_ORI>
+		  <file_encoding> </file_encoding>
+		 <RamanSpectra_technology id="_dc36749a-daba-4a96-bdf1-ef001e3d8d2d">
+		  <software id="_0506b717-eb56-4c81-91a9-39bbb6e83504">
+		   <sw_name>Orange Data Mining</sw_name>
+		   <sw_version> </sw_version>
+		   <sw_URI/>
+		  </software>
+		  <process> </process>
+		 </RamanSpectra_technology>
+		</RamanSpectra>
+	</Raman_CIdata>
+	<hsi_CIdata>
+		<hsiCropped>
+		<hsiCropped_name></hsiCropped_name>
+		  <file_path></file_path>
+		  <file_creator></file_creator>
+		  <file_date></file_date>
+		  <file_format></file_format>
+		  <file_ORI type="MD5">7d9637cb483b81750f42060391636202</file_ORI>
+		  <file_encoding> </file_encoding>
+		 <hsiCropped_technology id="_dc36749a-daba-4a96-bdf1-ef001e3d8d2d">
+		  <software id="_0506b717-eb56-4c81-91a9-39bbb6e83504">
+		   <sw_name>Orange Data Mining</sw_name>
+		   <sw_version> </sw_version>
+		   <sw_URI/>
+		  </software>
+		  <process> </process>
+		 </hsiCropped_technology>
+		</hsiCropped>
+		<hsiPosition> DATA FROM COLMAP ON HSI POSITION
+			<file_path></file_path>
+			<file_ORI type="MD5">7d9637cb483b81750f42060391636202</file_ORI>
+		</hsiPosition>
+		</hsi_allotherCIdatafromROIdef>
+	</hsi_CIdata>
+	<ROI_def>
+		The location for storing essential data generated by the algorithm that defines the ROIs
+	</ROI_def>
+	<otherAnalysesTBD>
+		......
+	</otherAnalysesTBD>
+   </computedInterpretedData> 
+ </digitalObject>
+ <digitalObject id="_d62456fb-d9af-4641-86d2-4ebbb2eccc55">
+  <object_name>20260610_APetra_Rhyolites_BDX28031</object_name>
+  <object_nature code="acquisition">Acquisition</object_nature>
+  <object_licence>CC BY SA</object_licence>
+  <object_creator id="_368e23d3-4ba0-4fe5-80fa-978f4a188b7b">
+   <actor_type code="person">Person</actor_type>
+   <actor_litteral>Arthur Leck</actor_litteral>
+   <actor_uri>https://orcid.org/0009-0004-8819-9970</actor_uri>
+  </object_creator>
+  <object_principalElement code="yes">yes</object_principalElement>
+  <object_description />
+  <object_thumbnail />
+  <object_collection>AUTOMATA</object_collection>
+  <object_contruitID />
+  <physicalObject id="_bc26c076-3feb-493d-8f78-397b839535bd">
+   <po_name>BDX28031</po_name>
+   <po_type code="artefact">Artefact</po_type>
+   <po_materials>Rhyolite</po_materials>
+   <po_description>flake</po_description>
+   <po_subject>Rhyolite</po_subject>
+   <po_subject>flake</po_subject>
+   <po_subject>neolithic</po_subject>
+   <po_creation id="_f0379cff-b2c2-443b-84d0-0e4bc2d91f50">
+    <po_creation_actor>
+     <actor_type code="person">Person</actor_type>
+     <actor_litteral />
+     <actor_uri />
+    </po_creation_actor>
+    <po_creation_date id="_a07d54fb-829d-415f-9a7b-b8e44a8da324">
+     <date_minDate />
+     <date_periodo />
+     <date_periodo />
+     <date_litteralDatation />
+    </po_creation_date>
+    <po_creation_location id="_d3769507-27d8-4b66-8bab-74589ae0f56b">
+     <loc_name />
+     <loc_geonames />
+     <log_LongLat />
+     <loc_French />
+     <loc_English />
+    </po_creation_location>
+   </po_creation>
+   <po_discovery id="_6a214bd7-ed8c-4553-8adb-d1ebd2c8e63f">
+    <po_discovery_actor>
+     <actor_type code="person">Person</actor_type>
+     <actor_litteral>Florian Soula</actor_litteral>
+     <actor_uri>https://orcid.org/0009-0008-4569-011X</actor_uri>
+    </po_discovery_actor>
+    <po_discovery_date id="_c8112235-bfa5-49f6-b78c-f1582e9b433d">
+     <date_minDate />
+     <date_periodo />
+     <date_periodo />
+     <date_litteralDatation>2022</date_litteralDatation>
+    </po_discovery_date>
+    <po_discovery_location id="_36b5b16b-feaf-4385-9c5c-4cbc769dcbcd">
+     <loc_name>Île Rousse</loc_name>
+     <loc_geonames>2998330</loc_geonames>
+     <log_LongLat>8.93764, 42.63371</log_LongLat>
+     <loc_French>L'Île-Rousse</loc_French>
+     <loc_English>L'Île-Rousse</loc_English>
+    </po_discovery_location>
+   </po_discovery>
+   <po_conservation id="_103225c7-ab95-4294-bea6-7fa34825683b">
+    <po_conservation_actor>
+     <actor_type code="person">Person</actor_type>
+     <actor_litteral>Arthur Leck</actor_litteral>
+     <actor_uri>https://orcid.org/0009-0004-8819-9970</actor_uri>
+    </po_conservation_actor>
+    <po_conservation_date id="_cdf174b9-7b5e-4853-b6a8-d022e20c4b15">
+     <date_minDate />
+     <date_periodo />
+     <date_periodo />
+     <date_litteralDatation>2026</date_litteralDatation>
+    </po_conservation_date>
+    <po_conservation_location id="_dd42bcf4-3337-4f93-96c6-1e2b6805c50d">
+     <loc_name>Pessac</loc_name>
+     <loc_geonames>2987805</loc_geonames>
+     <log_LongLat>-0.6324, 44.80565</log_LongLat>
+     <loc_French>Pessac</loc_French>
+     <loc_English>Pessac</loc_English>
+    </po_conservation_location>
+   </po_conservation>
+   <po_inventory id="_8f82f2f2-419e-4de6-8c3e-30ea9f19fc43">
+    <inventory_name />
+    <inventory_id>BDX28031</inventory_id>
+    <inventory_uri />
+   </po_inventory>
+  </physicalObject>
+  <sourceGroup id="_13276458-9d70-4bd0-94e9-9e0013b0e90b">
+	  <sourcePhotogrammetry>
+			<ph_technology id="_dc36749a-daba-4a96-bdf1-ef001e3d8d2d">
+				<ph_software id="_0506b717-eb56-4c81-91a9-39bbb6e83504">
+					<sw_name> SVS API? </sw_name>
+					<sw_version></sw_version>
+					<sw_URI/>
+				</ph_software>
+				<ph_hardware id="_5fc2fad4-46a5-4497-8058-3d2639cfda90">
+					<hw_sensorBrand>SVS Vistek Exo</hw_sensorBrand>
+					<hw_sensorModel>exo304CU3</hw_sensorModel>
+					<hw_sensorcalibration> Thumbnail to the calibration file? </hw_sensorcalibration>
+					<hw_spec> https://www.alliedvision.com/pdf/datasheet/1858?locale=en_US </hw_spec>
+				</ph_hardware>
+				<ph_process> Something about the calibration??? </ph_process>
+				<ph_initial_parameters> paramètres validés par l'opérateur - A FAIRE ECRIRE AUTOMATIQUEMENT PAR L'API </ph_initial_parameters>
+			</ph_technology>
+			<ph_folder_thumbnail> Do we need it or as the arborescence is always the same, only the object name is mandatory??? </ph_folder_thumbnail>
+			<photo_File>
+			  <file_path></file_path>
+			  <file_date></file_date>
+			  <file_format></file_format>
+			  <file_description></file_description>
+			  <file_ORI type="MD5">bc5fbc057e82d9247d372d0496880ab5</file_ORI>
+			  <file_encoding></file_encoding>
+			</photo_File>
+			<ph_paradata>
+			<file_path>.../photogrametry_paradata.csv</file_path>
+			  <file_creator></file_creator>
+			  <file_date></file_date>
+			  <file_format>csv</file_format>
+			  <file_description>all additional metadatas attached to the photogrametry acquisition</file_description>
+			  <file_ORI type="MD5">bc5fbc057e82d9247d372d0496880ab5</file_ORI>
+			  <file_encoding></file_encoding>
+			</ph_paradata>
+		   </sourcePhotogrammetry>
+		  <sourceHSI>
+			<hsi_technology id="_dc36749a-daba-4a96-bdf1-ef001e3d8d2d">
+				<hsi_software id="_0506b717-eb56-4c81-91a9-39bbb6e83504">
+					<sw_name>Specim IQ Studio</sw_name>
+					<sw_version>2019.05.29.2</sw_version>
+					<sw_URI/>
+				</hsi_software>
+				<hsi_hardware id="_5fc2fad4-46a5-4497-8058-3d2639cfda90">
+					<hw_sensorBrand>Specim</hw_sensorBrand>
+					<hw_sensorModel>IQ</hw_sensorModel>
+				</hsi_hardware>
+				<hsi_process> Something about white, dark and calibration
+				</hsi_process>
+				<hsi_initial_parameters> paramètres validés par l'opérateur - A FAIRE ECRIRE AUTOMATIQUEMENT PAR L'API </hsi_initial_parameters>
+			</hsi_technology>
+			<hsi_File>
+			  <file_path>.../reflectance.hdr</file_path>
+			  <file_date></file_date>
+			  <file_format>hdr</file_format>
+			  <file_description>Hyperspectrale image of "po_name"</file_description>
+			  <file_ORI type="MD5">bc5fbc057e82d9247d372d0496880ab5</file_ORI>
+			  <file_encoding></file_encoding>
+			</hsi_File>
+			<hsi_paradata>
+			<file_path>.../hsi_paradata.csv</file_path>
+			  <file_creator></file_creator>
+			  <file_date></file_date>
+			  <file_format>csv</file_format>
+			  <file_description>all additional metadatas attached to the hyperspectral imaging acquisition</file_description>
+			  <file_ORI type="MD5">bc5fbc057e82d9247d372d0496880ab5</file_ORI>
+			  <file_encoding></file_encoding>
+			</hsi_paradata>
+		   </sourceHSI>
+		  <sourceRaman>
+			<Raman_technology id="_dc36749a-daba-4a96-bdf1-ef001e3d8d2d">
+				<Raman_software id="_0506b717-eb56-4c81-91a9-39bbb6e83504">
+					<sw_name></sw_name>
+					<sw_version></sw_version>
+					<sw_URI/>
+				</Raman_software>
+				<Raman_hardware id="_5fc2fad4-46a5-4497-8058-3d2639cfda90">
+					<hw_sensorBrand></hw_sensorBrand>
+					<hw_sensorModel></hw_sensorModel>
+				</Raman_hardware>
+				<Raman_process>
+				</Raman_process>
+				<Raman_initial_parameters> paramètres validés par l'opérateur - A FAIRE ECRIRE AUTOMATIQUEMENT PAR L'API </Raman_initial_parameters>
+			</Raman_technology>
+			<Raman_File>
+			  <file_path></file_path>
+			  <file_creator></file_creator>
+			  <file_date></file_date>
+			  <file_format></file_format>
+			  <file_description></file_description>
+			  <file_ORI type="MD5"></file_ORI>
+			  <file_encoding></file_encoding>
+			</Raman_File>
+			<Raman_paradata>
+			<file_path></file_path>
+			  <file_creator></file_creator>
+			  <file_date></file_date>
+			  <file_format></file_format>
+			  <file_description></file_description>
+			  <file_ORI type="MD5"></file_ORI>
+			  <file_encoding></file_encoding>
+			</Raman_paradata>
+		   </sourceRaman>
+		  <sourceXRF>
+			<xrf_technology id="_dc36749a-daba-4a96-bdf1-ef001e3d8d2d">
+				<xrf_software id="_0506b717-eb56-4c81-91a9-39bbb6e83504">
+					<sw_name>Vanta Desktop App</sw_name>
+					<sw_version></sw_version>
+					<sw_URI/>
+				</xrf_software>
+				<xrf_hardware id="_5fc2fad4-46a5-4497-8058-3d2639cfda90">
+					<hw_sensorBrand>Olympus</hw_sensorBrand>
+					<hw_sensorModel>Vanta Serie C</hw_sensorModel>
+				</xrf_hardware>
+				<xrf_process>
+				</xrf_process>
+				<xrf_initial_parameters> paramètres validés par l'opérateur - A FAIRE ECRIRE AUTOMATIQUEMENT PAR L'API </xrf_initial_parameters>
+			</xrf_technology>
+			<xrf_File>
+			  <file_path></file_path>
+			  <file_creator></file_creator>
+			  <file_date></file_date>
+			  <file_format></file_format>
+			  <file_description></file_description>
+			  <file_ORI type="MD5">bc5fbc057e82d9247d372d0496880ab5</file_ORI>
+			  <file_encoding></file_encoding>
+			</xrf_File>
+			<xrf_File>
+			  <file_path></file_path>
+			  <file_creator></file_creator>
+			  <file_date></file_date>
+			  <file_format></file_format>
+			  <file_description></file_description>
+			  <file_ORI type="MD5"></file_ORI>
+			  <file_encoding></file_encoding>
+			</xrf_File>
+			<xrf_paradata>
+			<file_path></file_path>
+			  <file_creator></file_creator>
+			  <file_date></file_date>
+			  <file_format></file_format>
+			  <file_description></file_description>
+			  <file_ORI type="MD5"></file_ORI>
+			  <file_encoding></file_encoding>
+			</xrf_paradata>
+	   </sourceXRF>
+	 
+	   <sourceRoboticArm />
+	   
+	   <otherAnalysesTBD />
+	</sourceGroup>
+  <computedInterpretedData id="_d2356a21-d297-4dcf-baa6-70af58961db7">
+	    <photogrammetry_CIdata>
+		<phCI_File>
+		  <file_path></file_path>
+		  <file_date></file_date>
+		  <file_format>tiff</file_format>
+		  <file_description>derawed file</file_description>
+		  <file_ORI type="MD5">bc5fbc057e82d9247d372d0496880ab5</file_ORI>
+		  <file_encoding></file_encoding>
+		</phCI_File>
+		<mesh id="_4aa1a509-e5c5-4d75-9e44-aa130b396b05">
+		 <me_name></me_name>
+		 <me_numberOfPolygons></me_numberOfPolygons>
+		 <geometryFile id="_e74e9028-6728-4a75-bc6b-35ea4b0479bb_0">
+		  <geom_numberOfPoints></geom_numberOfPoints>
+		  <geom_orientationAxis code="not_oriented"></geom_orientationAxis>
+		  <geom_verticalAxis>X</geom_verticalAxis>
+		  <geom_unit>mm</geom_unit>
+		  <geom_xDimension/>
+		  <geom_yDimension/>
+		  <geom_zDimension/>
+		  <file_path>XXXXX.ply</file_path>
+		  <file_format>PLY</file_format>
+		  <file_ORI type="MD5">7d9637cb483b81750f42060391636202</file_ORI>
+		  <file_encoding>ASCII</file_encoding>
+		 </geometryFile>
+		 <me_technology id="_dc36749a-daba-4a96-bdf1-ef001e3d8d2d">
+		  <software id="_0506b717-eb56-4c81-91a9-39bbb6e83504">
+		   <sw_name>Automata pipeline</sw_name>
+		   <sw_version></sw_version>
+		   <sw_URI/>
+		  </software>
+		  <process></process>
+		 </me_technology>
+		</mesh>
+	</photogrammetry_CIdata>
+	<xrf_CIdata>
+		<XRFspectra>
+		<XRFspectra_name></XRFspectra_name>
+		  <file_path>XXXXX.jpg</file_path>
+		  <file_creator></file_creator>
+		  <file_date></file_date>
+		  <file_format></file_format>
+		  <file_ORI type="MD5">7d9637cb483b81750f42060391636202</file_ORI>
+		  <file_encoding> </file_encoding>
+		 <XRFspectra_technology id="_dc36749a-daba-4a96-bdf1-ef001e3d8d2d">
+		  <software id="_0506b717-eb56-4c81-91a9-39bbb6e83504">
+		   <sw_name>Orange Data Mining</sw_name>
+		   <sw_version> </sw_version>
+		   <sw_URI/>
+		  </software>
+		  <process> </process>
+		 </XRFspectra_technology>
+		</XRFspectra>
+		<XRFComposition>
+		<XRFComposition_name></XRFComposition_name>
+		  <file_path>XXXXX.csv</file_path>
+		  <file_creator>Arthur Leck</file_creator>
+		  <file_date>2025</file_date>
+		  <file_format>csv</file_format>
+		  <file_ORI type="MD5">7d9637cb483b81750f42060391636202</file_ORI>
+		  <file_encoding> </file_encoding>
+		 <XRFComposition_technology id="_dc36749a-daba-4a96-bdf1-ef001e3d8d2d">
+		  <software id="_0506b717-eb56-4c81-91a9-39bbb6e83504">
+		   <sw_name>Orange Data Mining</sw_name>
+		   <sw_version> </sw_version>
+		   <sw_URI/>
+		  </software>
+		  <process> </process>
+		 </XRFComposition_technology>
+		</XRFComposition>
+	</xrf_CIdata>
+	<Raman_CIdata>
+		<RamanSpectra>
+		 <RamanSpectra_name></RamanSpectra_name>
+		  <file_path>XXXXX.jpg</file_path>
+		  <file_creator></file_creator>
+		  <file_date></file_date>
+		  <file_format></file_format>
+		  <file_ORI type="MD5">7d9637cb483b81750f42060391636202</file_ORI>
+		  <file_encoding> </file_encoding>
+		 <RamanSpectra_technology id="_dc36749a-daba-4a96-bdf1-ef001e3d8d2d">
+		  <software id="_0506b717-eb56-4c81-91a9-39bbb6e83504">
+		   <sw_name>Orange Data Mining</sw_name>
+		   <sw_version> </sw_version>
+		   <sw_URI/>
+		  </software>
+		  <process> </process>
+		 </RamanSpectra_technology>
+		</RamanSpectra>
+	</Raman_CIdata>
+	<hsi_CIdata>
+		<hsiCropped>
+		<hsiCropped_name></hsiCropped_name>
+		  <file_path></file_path>
+		  <file_creator></file_creator>
+		  <file_date></file_date>
+		  <file_format></file_format>
+		  <file_ORI type="MD5">7d9637cb483b81750f42060391636202</file_ORI>
+		  <file_encoding> </file_encoding>
+		 <hsiCropped_technology id="_dc36749a-daba-4a96-bdf1-ef001e3d8d2d">
+		  <software id="_0506b717-eb56-4c81-91a9-39bbb6e83504">
+		   <sw_name>Orange Data Mining</sw_name>
+		   <sw_version> </sw_version>
+		   <sw_URI/>
+		  </software>
+		  <process> </process>
+		 </hsiCropped_technology>
+		</hsiCropped>
+		<hsiPosition> DATA FROM COLMAP ON HSI POSITION
+			<file_path></file_path>
+			<file_ORI type="MD5">7d9637cb483b81750f42060391636202</file_ORI>
+		</hsiPosition>
+		</hsi_allotherCIdatafromROIdef>
+	</hsi_CIdata>
+	<ROI_def>
+		The location for storing essential data generated by the algorithm that defines the ROIs
+	</ROI_def>
+	<otherAnalysesTBD>
+  </computedInterpretedData>
+ </digitalObject>
+</mdacst3D>
