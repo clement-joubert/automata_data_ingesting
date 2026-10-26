@@ -1,0 +1,3 @@
+[submodule "third_party/automata_photogrammetry"]
+	path = third_party/automata_photogrammetry
+	url = git@gitlab.inria.fr:automata_eccch/automata_photogrammetry.git
