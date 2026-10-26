@@ -1,0 +1,11 @@
+[sftp]
+host = "sftp.example.org"
+port = 22
+username = "your_username"
+# Existing writable directory as seen by the SFTP account (which may be chrooted).
+remote_root = "/incoming/automata"
+timeout = 30
+# Optional: omit to use the SSH agent or standard SSH key locations.
+# key_file = "~/.ssh/id_ed25519"
+# Optional: additional trusted host keys; ~/.ssh/known_hosts is loaded by default.
+# known_hosts = "~/.ssh/automata_known_hosts"

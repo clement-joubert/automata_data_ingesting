@@ -1,3 +1,6 @@
 [submodule "third_party/automata_photogrammetry"]
 	path = third_party/automata_photogrammetry
 	url = git@gitlab.inria.fr:automata_eccch/automata_photogrammetry.git
+[submodule "third_party/automata_crosshair"]
+	path = third_party/automata_crosshair
+	url = git@github.com:minstudio/automata_crosshair.git

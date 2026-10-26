@@ -1,1 +1,5 @@
 data/
+.venv/
+__pycache__/
+*.egg-info/
+configs/sftp.toml
