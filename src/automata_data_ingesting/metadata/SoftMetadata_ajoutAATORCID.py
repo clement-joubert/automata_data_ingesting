@@ -13,7 +13,7 @@ This version integrates GeoNames lookup for all location fields and the
 automatic creation of the measurement-data folder tree when exporting
 the XML file (batch folder named after the deposit title + Calibration +
 one folder per physical
-object containing HSI / Photogrammetry / Raman / pXRF / Robot / paradata,
+object containing HSI / photogrammetry / Raman / pXRF / Robot / paradata,
 each with raw_data / processed_data / paradata subfolders).
 
 Materials, object type and subjects/keywords can be looked up in the
@@ -68,7 +68,7 @@ DESC_MAXLEN = 150
 # --------------------------------------------------------------------------
 
 CALIBRATION_FOLDER = "Calibration"
-MEASUREMENT_FOLDERS = ["HSI", "Photogrammetry", "Raman", "pXRF", "Robot", "paradata"]
+MEASUREMENT_FOLDERS = ["HSI", "photogrammetry", "Raman", "pXRF", "Robot", "paradata"]
 DATA_FOLDERS = ["raw_data", "processed_data", "paradata"]
 
 # --------------------------------------------------------------------------
@@ -1865,7 +1865,7 @@ class BatchMetadataApp:
                     Calibration/
                     <po_name 1>/
                         HSI/            raw_data, processed_data, paradata
-                        Photogrammetry/ raw_data, processed_data, paradata
+                        photogrammetry/ raw_data, processed_data, paradata
                         Raman/          raw_data, processed_data, paradata
                         pXRF/           raw_data, processed_data, paradata
                         Robot/          raw_data, processed_data, paradata
@@ -2074,7 +2074,7 @@ class BatchMetadataApp:
                     f"Project folder and folder tree created.\n"
                     f"XML file exported:\n{path}\n\n"
                     f"{len(self.samples)} physical object folder(s) created "
-                    f"(HSI, Photogrammetry, Raman, pXRF, Robot, paradata).")
+                    f"(HSI, photogrammetry, Raman, pXRF, Robot, paradata).")
             else:
                 messagebox.showinfo("Export successful", f"XML file exported:\n{path}")
         except Exception as exc:
