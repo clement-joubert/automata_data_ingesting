@@ -1,10 +1,21 @@
+<div align="center">
+
 # AUTOMATA data ingestion
 
-Workflow: metadata and data tree → photogrammetry → HSI registration and points → Archeogrid upload.
+Prepare acquisitions, reconstruct objects, calculate measurement points, and upload to Archeogrid.
+
+</div>
+
+| Step | Task | Command |
+| :---: | --- | --- |
+| 1 | [Data tree and metadata](#step-1-generate-the-data-tree-and-metadata) | `automata-metadata` |
+| 2 | [Photogrammetry](#step-2-launch-photogrammetry) | `automata-photogrammetry` |
+| 3 | [HSI registration and points](#step-3-launch-hsi-registration-and-point-calculation) | `automata-crosshair` |
+| 4 | [Archeogrid upload](#step-4-upload-to-archeogrid) | `automata-upload` |
 
 ## Setup
 
-Requires Python 3.11+. Run from the repository root:
+**Requirements:** Python 3.11+ and Tkinter for the metadata UI. Run from the repository root:
 
 ```bash
 python3 -m venv .venv
@@ -13,7 +24,32 @@ python -m pip install -e .
 ```
 
 On Windows, create the environment with `py -3 -m venv .venv` and run commands
-from `.venv/Scripts/` without activation. The metadata UI requires Tkinter.
+from `.venv/Scripts/` without activation.
+
+## Run the workflow
+
+```bash
+automata-pipeline --path_project data/20261019_QB1stTEST --ask-password
+```
+
+Runs steps 1–4 in order and stops on any failure. Metadata entry and ROI selection
+remain interactive. In the metadata UI, export the named batch under `data/`,
+then close the UI. Acquisition files and edited photogrammetry configs must be
+in place before step 2; see the individual steps below.
+
+For a new project, use `--to-step 1` to create the tree first. Add the data and
+prepare the configs, then resume:
+
+```bash
+automata-pipeline --path_project data/20261019_QB1stTEST --from-step 2 --ask-password
+```
+
+Use `--from-step 3` to resume at HSI processing, or `--to-step 3` to stop before
+uploading. `--config` defaults to `configs/sftp.toml` and is required for uploads.
+Pass `--path-dark` and `--path-correction-matrix` as needed. Separate environments
+can be selected with `--metadata-python`, `--photogrammetry-python`, and
+`--crosshair-python`. The individual commands below remain available.
+You can also run `python -m automata_data_ingesting`.
 
 ## Step 1: Generate the data tree and metadata
 
@@ -36,16 +72,17 @@ data/20261019_QB1stTEST/
 
 Use simple object codes such as `TestMonteLupo` so XML object names match their
 folder names. Place acquisitions in the corresponding `raw_data/` folders.
-Existing projects must use lowercase `photogrammetry/` for the next steps.
+
+> **Folder naming:** Existing projects must use lowercase `photogrammetry/` for the next steps.
 
 ## Step 2: Launch photogrammetry
 
-Requires the `automata_photogrammetry` dependencies and COLMAP/OpenMVS.
+**Requirements:** `automata_photogrammetry` dependencies and COLMAP/OpenMVS.
 The sibling repo is used by default, falling back to the bundled submodule.
 Use `--repo` or `--python` to select another checkout or processing environment.
 
 Put camera RAW files and matching JSON sidecars in `photogrammetry/raw_data/`.
-Create the per-object configurations:
+**Configure:** Create the per-object configurations:
 
 ```bash
 automata-photogrammetry --path_project data/20261019_QB1stTEST --setup-only
@@ -53,15 +90,17 @@ automata-photogrammetry --path_project data/20261019_QB1stTEST --setup-only
 
 Edit `photogrammetry/processed_data/config.yaml` for each object: set calibration,
 bounding-box paths, and robot poses. Relative paths start at `processed_data`;
-use `robot_poses.metadata_dir: images` for copied sidecars. Then run:
+use `robot_poses.metadata_dir: images` for copied sidecars.
+
+**Run:**
 
 ```bash
 automata-photogrammetry \
   --path_project data/20261019_QB1stTEST \
-  --path-dark /path/to/color_calibration_wp_1.raw
+  --path-dark /path/to/color_calibration.raw
 ```
 
-Color balancing writes PNGs and JSONs to `processed_data/images/`, then reconstruction
+**Output:** Color balancing writes PNGs and JSONs to `processed_data/images/`, then reconstruction
 produces `processed_data/textured_mesh.glb`. The matrix defaults to the external
 repo's `ColorCalib.txt`; saturation defaults to `4096`. Use
 `--path-correction-matrix` to change the matrix. Omitting `--path-dark` disables
@@ -71,7 +110,7 @@ Use `--color-only`, `--reconstruct-only`, or `--overwrite` as needed.
 
 ## Step 3: Launch HSI registration and point calculation
 
-Requires the bundled `third_party/automata_crosshair` dependencies and OpenGL:
+**Requirements:** Bundled `third_party/automata_crosshair` dependencies and OpenGL:
 
 ```bash
 python -m pip install -r third_party/automata_crosshair/requirements.txt
@@ -90,9 +129,10 @@ HSI/raw_data/
 automata-crosshair --path_project data/20261019_QB1stTEST
 ```
 
-Draw the ROI box, press Enter to segment, then S to save. Clustering, registration
+Draw the ROI box, press **Enter** to segment, then **S** to save. Clustering, registration
 on the photogrammetry mesh, and XRF/Raman point generation follow automatically.
-Results go into `HSI/processed_data/{roi,roi_clustered,crosshair}/`, including PLYs
+
+**Output:** Results go into `HSI/processed_data/{roi,roi_clustered,crosshair}/`, including PLYs
 and JSON point coordinates in centimetres.
 
 Use `--python` for another environment, `--object TestMonteLupo` for one object,
