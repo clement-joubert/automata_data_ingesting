@@ -20,11 +20,18 @@ Prepare acquisitions, reconstruct objects, calculate measurement points, and upl
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-python -m pip install -e .
+python -m pip install -e ".[processing]"
 ```
 
 On Windows, create the environment with `py -3 -m venv .venv` and run commands
 from `.venv/Scripts/` without activation.
+
+The `processing` extra installs the Python dependencies for photogrammetry and HSI.
+For metadata and upload only, use `python -m pip install -e .`.
+Tkinter, COLMAP/OpenMVS, OpenGL, and the NVIDIA driver are installed separately.
+
+The current working environment uses Python 3.14.4. Dependency ranges in
+`pyproject.toml` describe supported packages; they are not an exact environment lock.
 
 ## Run the workflow
 
@@ -110,11 +117,7 @@ Use `--color-only`, `--reconstruct-only`, or `--overwrite` as needed.
 
 ## Step 3: Launch HSI registration and point calculation
 
-**Requirements:** Bundled `third_party/automata_crosshair` dependencies and OpenGL:
-
-```bash
-python -m pip install -r third_party/automata_crosshair/requirements.txt
-```
+**Requirements:** The `processing` extra above and OpenGL.
 
 Provide one HSI acquisition per object:
 

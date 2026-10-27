@@ -9,6 +9,36 @@ description = "AUTOMATA data preparation and ingestion tools"
 requires-python = ">=3.11"
 dependencies = ["paramiko>=3.5,<5"]
 
+[project.optional-dependencies]
+processing = [
+    # Color balancing and reconstruction.
+    "numpy>=2.2.6,<3",
+    "scipy>=1.15.3,<2",
+    "opencv-python>=4.13,<6",
+    "colour-science>=0.4.7,<0.5",
+    "colour-demosaicing>=0.2.7,<0.3",
+    "rawpy>=0.27,<0.28",
+    "imageio>=2.37,<3",
+    "PyYAML>=6,<7",
+    "tqdm>=4.70,<5",
+    "pycolmap>=4.1,<5",
+    "trimesh>=4.12,<6",
+    "pyrender==0.1.45",
+    "rtree>=1.4,<2",
+    "matplotlib>=3.10,<4",
+    "pillow>=12,<13",
+    # HSI clustering uses sklearn's HDBSCAN fallback in the working environment.
+    "scikit-learn>=1.7,<2",
+    # BiRefNet, including imports from its downloaded model code.
+    # Select the appropriate CUDA wheel source separately (see README).
+    "torch==2.14.1",
+    "torchvision==0.29.1",
+    "transformers>=5.21,<6",
+    "timm>=1.0.30,<2",
+    "kornia>=0.9,<0.10",
+    "einops>=0.8,<0.9",
+]
+
 [project.scripts]
 automata-pipeline = "automata_data_ingesting.pipeline:main"
 automata-metadata = "automata_data_ingesting.metadata.SoftMetadata_ajoutAATORCID:main"
