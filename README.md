@@ -1,6 +1,5 @@
 <div align="center">
-
-# AUTOMATA data ingestion
+# AUTOMATA · Data ingestion
 
 Prepare acquisitions, reconstruct objects, calculate measurement points, and upload to Archeogrid.
 
@@ -79,8 +78,6 @@ data/20261019_QB1stTEST/
 
 Use simple object codes such as `TestMonteLupo` so XML object names match their
 folder names. Place acquisitions in the corresponding `raw_data/` folders.
-
-> **Folder naming:** Existing projects must use lowercase `photogrammetry/` for the next steps.
 
 ## Step 2: Launch photogrammetry
 
