@@ -1,7 +1,7 @@
 <div align="center">
 
 
-# AUTOMATA · Data ingestion
+# AUTOMATA · Direct Ingesting
 
 Prepare acquisitions, reconstruct objects, calculate measurement points, and upload to Archeogrid.
 
