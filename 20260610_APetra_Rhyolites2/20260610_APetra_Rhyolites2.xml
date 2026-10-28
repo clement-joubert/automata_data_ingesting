@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mdacst3D xmlns="https://altag3d.huma-num.fr/data" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" id="_3796bc19-73ec-40b6-bce3-0e08ee91afd9" version="2" xsi:schemaLocation="https://altag3d.huma-num.fr/data https://altag3d.huma-num.fr/data/mdacst3d.xsd">
+ <depositGeneral id="_bd848507-1307-4bce-a58f-c914b6ff1232">
+  <d_title>20260610_APetra_Rhyolites</d_title>
+  <d_description>A lithic series comprising rhyolite artefacts unearthed at the A Petra site (Île-Rousse, Southern Corsica) during the 2022 archaeological excavation l</d_description>
+  <depositProject id="_8fb1b8a7-2bc2-43b4-a4d2-9563903b55ad">
+   <dp_nameProject>AUTOMATA</dp_nameProject>
+   <dp_contextProject>Digitisation of archaeological material</dp_contextProject>
+   <dp_sciTechObjectives>Automatic creation of integrated digital twins</dp_sciTechObjectives>
+   <dp_fundings>AUTOMATA is a project funded by the European Commission under Grant Agreement n.101158046 – AUTOMATA.</dp_fundings>
+   <dp_date id="_0a73524c-c1ea-401f-8249-5ae0e7739764">
+    <date_minDate />
+    <date_maxDate />
+    <date_litteralDatation>2024</date_litteralDatation>
+   </dp_date>
+  </depositProject>
+  <depositManagement id="_299a5b50-7dc6-42c0-92a0-529c8879ee09">
+   <dm_rights>CC BY SA</dm_rights>
+   <dm_version>4.0</dm_version>
+   <dm_depositorService>
+    <actor_type code="organization">Organization</actor_type>
+    <actor_litteral>Archéosciences Bordeaux UMR 6034</actor_litteral>
+    <actor_uri />
+   </dm_depositorService>
+   <dm_compatibility>10</dm_compatibility>
+   <dm_responsibleEntity id="_9c4a568c-7a28-4128-a9c6-6c90f493caa3">
+    <actor_type code="person">Person</actor_type>
+    <actor_litteral>Sarah Tournon</actor_litteral>
+    <actor_uri>https://orcid.org/0000-0002-1673-1073</actor_uri>
+   </dm_responsibleEntity>
+  </depositManagement>
+  <d_scientificDirector id="_740fe005-397e-4865-b4dd-cda7dac0932a">
+   <actor_type code="person">Person</actor_type>
+   <actor_litteral>Gabrielle Gattiglia</actor_litteral>
+   <actor_uri>https://orcid.org/0000-0002-4245-8939</actor_uri>
+  </d_scientificDirector>
+  <d_creator id="_cea67f22-a605-4083-a0d8-623cc292fbb1">
+   <actor_type code="person">Person</actor_type>
+   <actor_litteral>Arthur Leck</actor_litteral>
+   <actor_uri>https://orcid.org/0009-0004-8819-9970</actor_uri>
+  </d_creator>
+  <depositStructure id="_39192932-686b-465f-973b-2d4efe81aa14">
+   <ds_nbOfFiles />
+   <ds_size />
+   <ds_content />
+  </depositStructure>
+ </depositGeneral>
+ <digitalObject id="_dc1eaac5-e1ae-4b69-9746-539c9e7fd3de">
+  <object_name>20260610_APetra_Rhyolites_BDX28019</object_name>
+  <object_nature code="acquisition">Acquisition</object_nature>
+  <object_licence>CC BY SA</object_licence>
+  <object_creator id="_13791e36-37f2-4fd1-929e-82df601ba849">
+   <actor_type code="person">Person</actor_type>
+   <actor_litteral>Arthur Leck</actor_litteral>
+   <actor_uri>https://orcid.org/0009-0004-8819-9970</actor_uri>
+  </object_creator>
+  <object_principalElement code="yes">yes</object_principalElement>
+  <object_description />
+  <object_thumbnail />
+  <object_collection>AUTOMATA</object_collection>
+  <object_contruitID />
+  <physicalObject id="_dbf516cb-8f96-492f-a718-08d460504c6a">
+   <po_name>BDX28019</po_name>
+   <po_type code="artefact">Artefact</po_type>
+   <po_materials>Rhyolite</po_materials>
+   <po_description>elongated flake or bladelet</po_description>
+   <po_subject>Rhyolite</po_subject>
+   <po_subject>flake</po_subject>
+   <po_subject>neolithic</po_subject>
+   <po_creation id="_23305cf1-2fbb-4aae-b912-445d60504aff">
+    <po_creation_actor>
+     <actor_type code="person">Person</actor_type>
+     <actor_litteral />
+     <actor_uri />
+    </po_creation_actor>
+    <po_creation_date id="_d2cb4e56-7398-4663-a164-bfe63e421c47">
+     <date_minDate />
+     <date_periodo />
+     <date_periodo />
+     <date_litteralDatation />
+    </po_creation_date>
+    <po_creation_location id="_281fd977-5ee6-4e43-833d-e1603df0731c">
+     <loc_name />
+     <loc_geonames />
+     <log_LongLat />
+     <loc_French />
+     <loc_English />
+    </po_creation_location>
+   </po_creation>
+   <po_discovery id="_0e3ce984-2fa7-47ca-87dc-e36f04f3c63e">
+    <po_discovery_actor>
+     <actor_type code="person">Person</actor_type>
+     <actor_litteral>Florian Soula</actor_litteral>
+     <actor_uri>https://orcid.org/0009-0008-4569-011X</actor_uri>
+    </po_discovery_actor>
+    <po_discovery_date id="_2967f090-7279-4e5b-a1d8-a5e52b303a08">
+     <date_minDate />
+     <date_periodo />
+     <date_periodo />
+     <date_litteralDatation>2022</date_litteralDatation>
+    </po_discovery_date>
+    <po_discovery_location id="_c278b6cd-b217-4e60-b00c-ea3ded2c4051">
+     <loc_name>Île Rousse</loc_name>
+     <loc_geonames>2998330</loc_geonames>
+     <log_LongLat>8.93764, 42.63371</log_LongLat>
+     <loc_French>L'Île-Rousse</loc_French>
+     <loc_English>L'Île-Rousse</loc_English>
+    </po_discovery_location>
+   </po_discovery>
+   <po_conservation id="_6aabce2f-27ea-4c2c-9393-bb0f0ae09eda">
+    <po_conservation_actor>
+     <actor_type code="person">Person</actor_type>
+     <actor_litteral>Arthur Leck</actor_litteral>
+     <actor_uri>https://orcid.org/0009-0004-8819-9970</actor_uri>
+    </po_conservation_actor>
+    <po_conservation_date id="_9381facf-62c8-4610-aede-b19dc3963887">
+     <date_minDate />
+     <date_periodo />
+     <date_periodo />
+     <date_litteralDatation>2026</date_litteralDatation>
+    </po_conservation_date>
+    <po_conservation_location id="_1c4743e9-e851-4033-968d-6eb11917e463">
+     <loc_name>Pessac</loc_name>
+     <loc_geonames>2987805</loc_geonames>
+     <log_LongLat>-0.6324, 44.80565</log_LongLat>
+     <loc_French>Pessac</loc_French>
+     <loc_English>Pessac</loc_English>
+    </po_conservation_location>
+   </po_conservation>
+   <po_inventory id="_4862a831-fbc8-49c4-8568-8258c000d432">
+    <inventory_name />
+    <inventory_id>BDX28019</inventory_id>
+    <inventory_uri />
+   </po_inventory>
+  </physicalObject>
+  <sourceGroup id="_13276458-9d70-4bd0-94e9-9e0013b0e90b" />
+  <computedInterpretedData id="_d2356a21-d297-4dcf-baa6-70af58961db7" />
+ </digitalObject>
+ <digitalObject id="_714e709e-4e07-47a8-9486-d9541dd24680">
+  <object_name>20260610_APetra_Rhyolites_BDX28031</object_name>
+  <object_nature code="acquisition">Acquisition</object_nature>
+  <object_licence>CC BY SA</object_licence>
+  <object_creator id="_c0499ee1-cc83-49e6-a814-71d019c7b0fd">
+   <actor_type code="person">Person</actor_type>
+   <actor_litteral>Arthur Leck</actor_litteral>
+   <actor_uri>https://orcid.org/0009-0004-8819-9970</actor_uri>
+  </object_creator>
+  <object_principalElement code="yes">yes</object_principalElement>
+  <object_description />
+  <object_thumbnail />
+  <object_collection>AUTOMATA</object_collection>
+  <object_contruitID />
+  <physicalObject id="_c598fe0a-1e24-4b20-b8c7-49871f87ab29">
+   <po_name>BDX28031</po_name>
+   <po_type code="artefact">Artefact</po_type>
+   <po_materials>Rhyolite</po_materials>
+   <po_description>flake</po_description>
+   <po_subject>Rhyolite</po_subject>
+   <po_subject>flake</po_subject>
+   <po_subject>neolithic</po_subject>
+   <po_creation id="_0f937ce9-b75a-4f15-b6ec-ab128547d7c5">
+    <po_creation_actor>
+     <actor_type code="person">Person</actor_type>
+     <actor_litteral />
+     <actor_uri />
+    </po_creation_actor>
+    <po_creation_date id="_1bf5c69a-0ba0-43e1-805d-8bc9838492c7">
+     <date_minDate />
+     <date_periodo />
+     <date_periodo />
+     <date_litteralDatation />
+    </po_creation_date>
+    <po_creation_location id="_0f3eb0c6-4187-48a1-9d42-9e1c0fd1f4c3">
+     <loc_name />
+     <loc_geonames />
+     <log_LongLat />
+     <loc_French />
+     <loc_English />
+    </po_creation_location>
+   </po_creation>
+   <po_discovery id="_a053a5c2-8944-4150-a93a-1684769d174b">
+    <po_discovery_actor>
+     <actor_type code="person">Person</actor_type>
+     <actor_litteral>Florian Soula</actor_litteral>
+     <actor_uri>https://orcid.org/0009-0008-4569-011X</actor_uri>
+    </po_discovery_actor>
+    <po_discovery_date id="_35ca01dc-bdce-42d8-b3ca-0443598e822d">
+     <date_minDate />
+     <date_periodo />
+     <date_periodo />
+     <date_litteralDatation>2022</date_litteralDatation>
+    </po_discovery_date>
+    <po_discovery_location id="_025e7b6a-1d7d-4193-93a1-6a52b9330335">
+     <loc_name>Île Rousse</loc_name>
+     <loc_geonames>2998330</loc_geonames>
+     <log_LongLat>8.93764, 42.63371</log_LongLat>
+     <loc_French>L'Île-Rousse</loc_French>
+     <loc_English>L'Île-Rousse</loc_English>
+    </po_discovery_location>
+   </po_discovery>
+   <po_conservation id="_bedd5b15-a8a4-454a-9891-8df1d098c1cf">
+    <po_conservation_actor>
+     <actor_type code="person">Person</actor_type>
+     <actor_litteral>Arthur Leck</actor_litteral>
+     <actor_uri>https://orcid.org/0009-0004-8819-9970</actor_uri>
+    </po_conservation_actor>
+    <po_conservation_date id="_01386340-1697-4549-8398-140edbe6aeaa">
+     <date_minDate />
+     <date_periodo />
+     <date_periodo />
+     <date_litteralDatation>2026</date_litteralDatation>
+    </po_conservation_date>
+    <po_conservation_location id="_745e1f5f-ffc8-4259-a667-353fcabc3c3e">
+     <loc_name>Pessac</loc_name>
+     <loc_geonames>2987805</loc_geonames>
+     <log_LongLat>-0.6324, 44.80565</log_LongLat>
+     <loc_French>Pessac</loc_French>
+     <loc_English>Pessac</loc_English>
+    </po_conservation_location>
+   </po_conservation>
+   <po_inventory id="_c4065ad5-d4f8-4ec6-8312-4dfa836cf1bd">
+    <inventory_name />
+    <inventory_id>BDX28031</inventory_id>
+    <inventory_uri />
+   </po_inventory>
+  </physicalObject>
+  <sourceGroup id="_13276458-9d70-4bd0-94e9-9e0013b0e90b" />
+  <computedInterpretedData id="_d2356a21-d297-4dcf-baa6-70af58961db7" />
+ </digitalObject>
+</mdacst3D>
