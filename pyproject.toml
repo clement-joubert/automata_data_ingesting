@@ -41,10 +41,13 @@ processing = [
 
 [project.scripts]
 automata-pipeline = "automata_data_ingesting.pipeline:main"
-automata-metadata = "automata_data_ingesting.metadata.SoftMetadata_ajoutAATORCID:main"
+automata-metadata = "automata_data_ingesting.metadata.launcher:main"
 automata-upload = "automata_data_ingesting.uploading.sftp:main"
 automata-photogrammetry = "automata_data_ingesting.photogrammetry.pipeline:main"
 automata-crosshair = "automata_data_ingesting.crosshair.pipeline:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.setuptools.package-data]
+"automata_data_ingesting.metadata" = ["SoftMetadata_V0.1.py"]

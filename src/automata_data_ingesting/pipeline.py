@@ -64,7 +64,7 @@ def main(argv=None) -> int:
         upload.append("--ask-password")
     if args.ask_passphrase:
         upload.append("--ask-passphrase")
-    metadata = Path(__file__).parent / "metadata/SoftMetadata_ajoutAATORCID.py"
+    metadata = Path(__file__).parent / "metadata/launcher.py"
     commands = {
         1: ("Metadata UI", [python_path(args.metadata_python), str(metadata)]),
         2: ("Photogrammetry", photo),

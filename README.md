@@ -16,11 +16,15 @@ Prepare acquisitions, reconstruct objects, calculate measurement points, and upl
 
 ## Setup
 
-**Requirements:** Python 3.11+ and Tkinter for the metadata UI. Run from the repository root:
+**Requirements:** Python 3.11+ and Tkinter for the metadata UI.
+Install COLMAP 4.2.1 and OpenMVS 2.4.0 separately and add their executables to `PATH`.
+
+Run from the repository root:
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
+git submodule update --init
 python -m pip install -e ".[processing]"
 ```
 
@@ -30,6 +34,8 @@ from `.venv/Scripts/` without activation.
 The `processing` extra installs the Python dependencies for photogrammetry and HSI.
 For metadata and upload only, use `python -m pip install -e .`.
 Tkinter, COLMAP/OpenMVS, OpenGL, and the NVIDIA driver are installed separately.
+For GPU processing, install PyTorch/torchvision builds compatible with your GPU
+and driver; this workstation uses the CUDA 13.0 builds.
 
 The current working environment uses Python 3.14.4. Dependency ranges in
 `pyproject.toml` describe supported packages; they are not an exact environment lock.
@@ -45,8 +51,14 @@ remain interactive. In the metadata UI, export the named batch under `data/`,
 then close the UI. Acquisition files and edited photogrammetry configs must be
 in place before step 2; see the individual steps below.
 
-For a new project, use `--to-step 1` to create the tree first. Add the data and
-prepare the configs, then resume:
+For a **new project**, create the tree first:
+
+```bash
+automata-pipeline --path_project data/20261019_QB1stTEST --to-step 1
+```
+
+Add the acquisition files, then create and edit the per-object photogrammetry
+configs as described in step 2. Resume when the inputs are ready:
 
 ```bash
 automata-pipeline --path_project data/20261019_QB1stTEST --from-step 2 --ask-password
@@ -80,6 +92,11 @@ data/20261019_QB1stTEST/
 
 Use simple object codes such as `TestMonteLupo` so XML object names match their
 folder names. Place acquisitions in the corresponding `raw_data/` folders.
+The deposit title must match the project folder in `--path_project`.
+Use **Session: Save / Load** for unfinished entry and **Load XML** to edit an
+existing export. **Export XML only** does not create the folder tree.
+See the [SoftMetadata quick guide](src/automata_data_ingesting/metadata/quick-guide-SoftMetadata_V0.1.md)
+for the updated UI.
 
 ## Step 2: Launch photogrammetry
 
@@ -88,6 +105,7 @@ The sibling repo is used by default, falling back to the bundled submodule.
 Use `--repo` or `--python` to select another checkout or processing environment.
 
 Put camera RAW files and matching JSON sidecars in `photogrammetry/raw_data/`.
+
 **Configure:** Create the per-object configurations:
 
 ```bash
@@ -97,6 +115,7 @@ automata-photogrammetry --path_project data/20261019_QB1stTEST --setup-only
 Edit `photogrammetry/processed_data/config.yaml` for each object: set calibration,
 bounding-box paths, and robot poses. Relative paths start at `processed_data`;
 use `robot_poses.metadata_dir: images` for copied sidecars.
+The generated template includes machine-specific paths; edit it before processing.
 
 **Run:**
 
